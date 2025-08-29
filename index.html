@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- reset.cssを使用しています。 -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- style.cssを使用しています。 -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--headの中に書かないでheadは消す-->
+  <header>
+    <!-- ヘッダー -->
+    <nav>
+      <h1><img src="img/logo.svg" width="100px" alt="ファーストビュー"></h1>
+      <ul>
+        <li> NEWS</li>
+        <li>ABOUT</li>
+        <li>BUSINESS</li>
+        <li>COMPANY</li>
+      </ul>
+    </nav>
+    <p class="fv-contact">お問い合わせ </p>
+  </header>
+
+  <!-- メイン画像-->
+  <img src="img/mainvisual.jpg" class="fv" alt="メインビジュアル">
+<main>
+  <!--ニュース -->
+  <section>
+    <div class="subtitle">
+      <h2>NEWS</h2>
+      <h3>ニュース</h3>
+    </div>
+    <!--ニュース記事 -->
+    <ul class="newslist">
+      <li class="newslist-item">
+        <a href="">
+          <div class="newslist-date">
+            <time>2021.01.01</time>
+            <p class="newsitem">NEWS</p>
+          </div>
+          <p>タイトルタイトルタイトルタイトル</p>
+        </a>
+      </li>
+      <!--2つ目 -->
+      <li class="newslist-item">
+        <a href="">
+          <div class="newslist-date">
+            <time>2021.01.01</time>
+            <p class="newsitem">NEWS</p>
+          </div>
+          <p>タイトルタイトルタイトルタイトル</p>
+        </a>
+      </li>
+      <!--3つ目 -->
+      <li class="newslist-item">
+        <a href="">
+          <div class="newslist-date">
+            <time>2021.01.01</time>
+            <p class="newsitem">NEWS</p>
+          </div>
+          <p>タイトルタイトルタイトルタイトル</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!--私たちについて -->
+  <section>
+
+    <div class="about-content">
+      <img src="img/about.jpg" class="about-img1">
+      <div class="subtitle2">
+        <h2>ABOUT</h2>
+        <h3>私たちについて</h3>
+        <p class="about-text">テキストテキストテキストテキストテキストテキスト<br> テキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキスト<br> テキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキスト<br> テキストテキストテキストテキストテキストテキスト
+          <br> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          <br> テキストテキストテキストテキストテキストテキスト
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!--事業内容 -->
+  <section>
+    <div class="business-content">
+      <div class="subtitle">
+        <h2>BUSINESS</h2>
+        <h3>事業内容</h3>
+      </div>
+      <ul class="business-list">
+        <li>
+          <div class="business-content-left">
+            <p>Web制作・マーケティング</p>
+            <img src="img/business1.jpg" class="business-img">
+          </div>
+        </li>
+
+        <li>
+          <div class="business-content-left">
+            <p>インターネットメディア事業</p>
+            <img src="img/business2.jpg" class="business-img">
+          </div>
+        </li>
+
+        <li>
+          <div class="business-content-left">
+            <p>プロモーション企画・制作</p>
+            <img src="img/business3.jpg" class="business-img">
+          </div>
+        </li>
+
+
+
+        <li>
+          <div class="business-content-left">
+            <p>ソーシャル企画・運営</p>
+            <img src="img/business4.jpg" class="business-img">
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!--会社情報 -->
+  <section>
+    <div class="subtitle">
+      <div class="box">
+        <h2>COMPANY</h2>
+        <h3>会社情報</h3>
+        <div class="box-list">
+          <table id="table01">
+            <tr>
+              <th>会社名</th>
+              <td>ウェブエンターテイメントデザイン株式会社</td>
+            </tr>
+            <tr>
+              <th>所在地</th>
+              <td>東京都渋谷区桜丘町99-9 West Building 3F</td>
+            </tr>
+            <tr>
+              <th>代表</th>
+              <td>ＸＸＸＸＸＸ</td>
+            </tr>
+            <tr>
+              <th>設立</th>
+              <td>2021年1月1日</td>
+            </tr>
+            <tr>
+              <th>資本金</th>
+              <td>3,000,000円</td>
+            </tr>
+            <tr>
+              <th>事業内容</th>
+              <td>
+                <div class="item-list">Web制作・マーケティング</div>
+                <div class="item-list">インターネットメディア事業</div>
+                <div class="item-list">プロモーション企画・制作</div>
+                <div class="item-list">ソーシャル企画・運営</div>
+                <img src="img/company.jpg" class="company-img">
+              </td>
+            </tr>
+          </table>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  </main>
+   <!--フッター-->
+<footer id="footer">
+<div class="footer-left">
+  <div class="footer-logo">
+  <img src="img/logo.svg" width="100px" alt="フッターロゴ">
+  </div>
+  <div class="footer-right">
+  <p>
+    Web Entertainment Design Inc.<br>
+              West Building 3F<br>
+              9-99 Sakuragaokacho Shibuya-ku<br>
+              Tokyo, Japan 150-0031<br>
+              T/99-9999-9999
+  </p> 
+  </div>
+  <p class="copyright">
+  &copy;  Web Entertainment Design Inc.
+</p>
+</div>
+
+</footer>
+</body>
+
+</html>
